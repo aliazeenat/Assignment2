@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints">
+
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <RadioButton
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <RadioButton
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00897B"
+        android:text="Next Question"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="78dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
