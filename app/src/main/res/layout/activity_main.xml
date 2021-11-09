@@ -37,39 +37,42 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/repo"
         android:layout_width="320dp"
         android:layout_height="70dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="2dp"
         android:backgroundTint="#00897B"
         android:text="Go to Repository"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/prac"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/prac"
         android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="68dp"
         android:backgroundTint="#00897B"
         android:text="Practice"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exam"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/exam"
         android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="68dp"
         android:backgroundTint="#00897B"
         android:text="Exam"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/prac" />
 </androidx.constraintlayout.widget.ConstraintLayout>
