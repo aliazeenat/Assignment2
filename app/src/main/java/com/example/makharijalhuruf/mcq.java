@@ -51,4 +51,6 @@ public class mcq {
     public void setAnswer(int answer) {
         this.answer = answer;
     }
+
+
 }
