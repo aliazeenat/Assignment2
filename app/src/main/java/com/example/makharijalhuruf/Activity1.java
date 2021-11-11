@@ -2,6 +2,7 @@ package com.example.makharijalhuruf;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -17,14 +18,14 @@ import java.util.List;
 
 
 public class Activity1 extends AppCompatActivity {
-    private TextView score,question;
+    private TextView question;
     private RadioGroup radiogroup;
     private RadioButton one,two,three;
     private Button next;
 
     int totalQuestions;
     int qCounter=0;
-    int points;
+
 
 
     ColorStateList color;
@@ -37,11 +38,10 @@ public class Activity1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
-
+        setContentView(R.layout.activity_1);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         mcqList = new ArrayList<>();
         question = findViewById(R.id.question);
-        score = findViewById(R.id.score);
         radiogroup= findViewById(R.id.group);
         one= findViewById(R.id.option1);
         two= findViewById(R.id.option2);
@@ -74,10 +74,7 @@ public class Activity1 extends AppCompatActivity {
         answered=true;
         RadioButton opSelected= findViewById(radiogroup.getCheckedRadioButtonId());
         int answerNo= radiogroup.indexOfChild(opSelected) + 1;
-        if(answerNo==currentQuestion.getAnswer()){
-            points++;
-            score.setText("Score: " +points);
-        }
+
         one.setTextColor(Color.RED);
         two.setTextColor(Color.RED);
         three.setTextColor(Color.RED);

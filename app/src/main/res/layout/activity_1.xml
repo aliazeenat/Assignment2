@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#BFE8ED"
+    android:backgroundTint="#B2E1E6"
     tools:context=".MainActivity">
 
 
@@ -15,7 +17,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="129dp"
         android:layout_marginBottom="3dp"
-        android:backgroundTint="#00897B"
+        android:backgroundTint="@color/teal_700"
         android:text="Next Question"
         app:layout_constraintBottom_toTopOf="@+id/group"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,8 +33,10 @@
         android:layout_marginEnd="106dp"
         android:layout_marginBottom="3dp"
         android:background="#CDC3C3"
-        android:backgroundTint="#EAFAF9"
+        android:backgroundTint="@color/teal_700"
         android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/next"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,10 +45,11 @@
 
     <RadioGroup
         android:id="@+id/group"
-        android:layout_width="389dp"
-        android:layout_height="421dp"
+        android:layout_width="376dp"
+        android:layout_height="389dp"
         android:layout_marginStart="22dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="13dp"
         android:layout_marginBottom="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +71,5 @@
             android:layout_width="match_parent"
             android:layout_height="120dp" />
     </RadioGroup>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

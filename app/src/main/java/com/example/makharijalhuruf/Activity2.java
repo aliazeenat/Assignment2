@@ -2,6 +2,7 @@ package com.example.makharijalhuruf;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -38,7 +39,7 @@ public class Activity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
-
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         mcqList = new ArrayList<>();
         question = findViewById(R.id.question);
         score = findViewById(R.id.score);
@@ -76,7 +77,7 @@ public class Activity2 extends AppCompatActivity {
         int answerNo= radiogroup.indexOfChild(opSelected) + 1;
         if(answerNo==currentQuestion.getAnswer()){
             points++;
-            score.setText("Score: " +points);
+            score.setText("Score: " +points );
         }
         one.setTextColor(Color.RED);
         two.setTextColor(Color.RED);
@@ -101,7 +102,7 @@ public class Activity2 extends AppCompatActivity {
 
     private void showNext() {
 
-        radiogroup.clearCheck();;
+        radiogroup.clearCheck();
         one.setTextColor(color);
         two.setTextColor(color);
         three.setTextColor(color);
