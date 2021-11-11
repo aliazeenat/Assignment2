@@ -137,31 +137,31 @@ public class Activity2 extends AppCompatActivity {
                 "\n" +
                 "touching the mouth roof","Lahatiyah-Portion of Tongue near its base\n" +
                 "touching the roof of mouth",2));
-        mcqList.add(new mcq("ج","","","",2));
-        mcqList.add(new mcq("ش","","","",2));
-        mcqList.add(new mcq("ی","","","",2));
-        mcqList.add(new mcq("ض","","","",2));
-        mcqList.add(new mcq("ل","","","",2));
-        mcqList.add(new mcq("ن","","","",2));
-        mcqList.add(new mcq("ر","","","",2));
-        mcqList.add(new mcq("ت","","","",2));
-        mcqList.add(new mcq("د","","","",2));
-        mcqList.add(new mcq("ط","","","",2));
-        mcqList.add(new mcq("ظ","","","",2));
-        mcqList.add(new mcq("ذ","","","",2));
-        mcqList.add(new mcq("ث","","","",2));
-        mcqList.add(new mcq("ص","","","",2));
-        mcqList.add(new mcq("ز","","","",2));
-        mcqList.add(new mcq("س","","","",2));
-        mcqList.add(new mcq("م","","","",2));
-        mcqList.add(new mcq("ن","","","",2));
-        mcqList.add(new mcq("ف","","","",2));
-        mcqList.add(new mcq("ب","","","",2));
-        mcqList.add(new mcq("م","","","",2));
-        mcqList.add(new mcq("و","","","",2));
-        mcqList.add(new mcq("باَ","","","",2));
-        mcqList.add(new mcq("بوُ","","","",2));
-        mcqList.add(new mcq("بیِ","","","",2));
+        mcqList.add(new mcq("ج","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Shajariyah-Haafiyah-(One side of the tongue touching the molar teeth)","Lahatiyah-(Base of Tongue which is near Uvula touching the mouth roof)",1));
+        mcqList.add(new mcq("ش","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Shajariyah-Haafiyah-(One side of the tongue touching the molar teeth)","Lahatiyah-(Base of Tongue which is near Uvula touching the mouth roof)",1));
+        mcqList.add(new mcq("ی","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Shajariyah-Haafiyah-(One side of the tongue touching the molar teeth)","Lahatiyah-(Base of Tongue which is near Uvula touching the mouth roof)",1));
+        mcqList.add(new mcq("ض","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Shajariyah-Haafiyah-(One side of the tongue touching the molar teeth)","Lahatiyah-(Base of Tongue which is near Uvula touching the mouth roof)",2));
+        mcqList.add(new mcq("ل","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 8 teeth","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",1));
+        mcqList.add(new mcq("ن","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 8 teeth","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",2));
+        mcqList.add(new mcq("ر","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 8 teeth","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",3));
+        mcqList.add(new mcq("ت","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",2));
+        mcqList.add(new mcq("د","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",2));
+        mcqList.add(new mcq("ط","Tarfiyah-Rounded tip of the tongue touching the base of the frontal 6 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Tarfiyah-Rounded tip of the tongue and some portion near it touching the base of the frontal 4 teeth",2));
+        mcqList.add(new mcq("ظ","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Halqiyah-End of Throat",1));
+        mcqList.add(new mcq("ذ","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Halqiyah-End of Throat",1));
+        mcqList.add(new mcq("ث","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Nit-eeyah(Tip of the tongue touching the base of the front 2 teeth)","Halqiyah-End of Throat",1));
+        mcqList.add(new mcq("ص","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Lisaveyah-Tip of the tongue comes between the front top and bottom teeth",3));
+        mcqList.add(new mcq("ز","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Lisaveyah-Tip of the tongue comes between the front top and bottom teeth",3));
+        mcqList.add(new mcq("س","Shajariyah-Haafiyah-(Tongue touching the center of the mouth roof)","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Lisaveyah-Tip of the tongue comes between the front top and bottom teeth",3));
+        mcqList.add(new mcq("م","Ghunna-While pronouncing the ending sound of  م  or ن , bring the vibration to the nose","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Halqiyah-Start of the Throat",1));
+        mcqList.add(new mcq("ن","Ghunna-While pronouncing the ending sound of  م  or ن , bring the vibration to the nose","Lisaveyah-Tip of the tongue touching the tip of the frontal 2 teeth","Halqiyah-Start of the Throat",1));
+        mcqList.add(new mcq("ف","Tip of the two upper jaw teeth touches the inner part of the lower lip","Inner part of the both lips touch each other","Outer part of both lips touch each other",1));
+        mcqList.add(new mcq("ب","Tip of the two upper jaw teeth touches the inner part of the lower lip","Inner part of the both lips touch each other","Outer part of both lips touch each other",2));
+        mcqList.add(new mcq("م","Tip of the two upper jaw teeth touches the inner part of the lower lip","Inner part of the both lips touch each other","Outer part of both lips touch each other",3));
+        mcqList.add(new mcq("و","Tip of the two upper jaw teeth touches the inner part of the lower lip","Inner part of the both lips touch each other","Rounding both lips and not closing the mouth",3));
+        mcqList.add(new mcq("باَ","Mouth empty space while speaking word","Halqiyah-End of Throat","Halqiyah-Start of the Throat",1));
+        mcqList.add(new mcq("بوُ","Mouth empty space while speaking words","Halqiyah-End of Throat","Halqiyah-Start of the Throat",1));
+        mcqList.add(new mcq("بیِ","Mouth empty space while speaking words","Halqiyah-End of Throat","Halqiyah-Start of the Throat",1));
 
     }
 }
