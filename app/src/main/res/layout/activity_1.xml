@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#BFE8ED"
-    android:backgroundTint="#B2E1E6"
+    android:backgroundTint="#11B2E1E6"
     tools:context=".MainActivity">
 
 
@@ -17,7 +17,7 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="129dp"
         android:layout_marginBottom="3dp"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/black"
         android:text="Next Question"
         app:layout_constraintBottom_toTopOf="@+id/group"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="106dp"
         android:layout_marginBottom="3dp"
         android:background="#CDC3C3"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="@color/black"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
